@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'EatChickenOnline.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'LotteryTicket.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'LotteryTicket.db'),
     }
 }
 

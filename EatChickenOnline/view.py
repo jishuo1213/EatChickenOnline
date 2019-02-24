@@ -1,4 +1,3 @@
-import json
 import random
 import requests
 
@@ -88,4 +87,4 @@ def generate_code_old():
 def get_last_twenty():
     res = requests.get('http://f.apiplus.net/ssq-20.json')
     json_res = res.json()
-
+        
